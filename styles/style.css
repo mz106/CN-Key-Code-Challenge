@@ -1,0 +1,99 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #023e8a;
+    /* border: 1px solid black; */
+}
+
+/* ============================= Type ================================= */
+
+body {
+    background-image: linear-gradient(#caf0f8, #48cae4);
+}
+
+
+.para__keycode--value {
+    font-size: 3.5rem;
+}
+
+.para__keycode--result,
+.para__keycode--value {
+    font-family: 'Roboto', sans-serif;
+}
+
+.para__keycode--result {
+    font-size: 2rem;
+}
+
+.para__keycode--desc {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ============================= Flex ================================= */
+
+.container--flex {
+    display: flex;
+}
+
+/* ============================= Layout ================================= */
+
+.wrapper {
+    height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container__keycode--value {
+    width: 15%;
+    height: 20%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.para__keycode--value {
+    width: 100%;
+    height: 50%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container__event--medium {
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+}
+
+.container__keycode--small {
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.para__keycode--desc {
+    width: 80%;
+    height: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container__keycode--result {
+    width: 80%;
+    height: 25%;
+    text-align: center;
+    margin: 0 auto;;
+}
+
+.para__keycode--result {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}

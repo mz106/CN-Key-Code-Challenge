@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container--flex wrapper">
+        <div class="container--flex container__keycode--value">
+            <p class="para__keycode--value" id="key-value"></p>
+        </div>
+        <div class="container--flex container__event--medium">
+            <div class="container--flex container__keycode--small">
+                <p class="para__keycode--desc" id="key-desc">event.key</p>
+                <div class="container--flex container__keycode--result">
+                    <p class="para__keycode--result" id="key-result"></p>
+                </div>
+            </div>
+            <div class="container--flex container__keycode--small">
+                <p class="para__keycode--desc" id="key-desc">event.code</p>
+                <div class="container--flex container__keycode--result">
+                    <p class="para__keycode--result" id="code-result"></p>
+                </div>
+            </div>
+            <div class="container--flex container__keycode--small">
+                <p class="para__keycode--desc" id="which-desc">event.which</p>
+                <div class="container--flex container__keycode--result">
+                    <p class="para__keycode--result" id="which-result"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
